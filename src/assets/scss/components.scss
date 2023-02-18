@@ -1,0 +1,202 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.button-background, .button {
+  display: block;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: 1px solid #7481ff;
+  cursor: pointer;
+  @media (max-width: $mobileWidth) {
+    font-size: 14px;
+  }
+}
+
+.button:hover{
+  border: 1px solid  #6270FF;
+}
+
+.button-background{
+  background-color: #7481ff;
+  color: #ffffff;
+}
+
+.button-background:hover{
+  background-color: #6270FF;
+}
+
+.button-unbackground{
+  color: #7481ff;
+}
+
+.button-unbackground:hover{
+  color: #6270FF;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 24px;
+  padding-right: 24px;
+  @media (max-width: $mobileWidth) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.socialLink {
+  display: block;
+  border-radius: 2px;
+  background: #ffffff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 108.5%;
+  letter-spacing: 0.02em;
+  img {
+    padding-bottom: 4px;
+    @media (max-width: $mobileWidth) {
+      max-width: 36px;
+      padding: 0;
+    }
+  }
+  padding-top: 2px;
+  @media (max-width: $mobileWidth) {
+    font-size: 20.2955px;
+    line-height: 108.5%;
+    gap: 1px;
+  }
+}
+
+.icon {
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.buttonLink {
+  display: block;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+.buttonLink:hover{
+  text-decoration: underline;
+}
+
+.socialBlock{
+  display: flex;
+      gap: 10px;
+      .socialLink {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+      }
+
+      .socialLink.purpleBg{
+        background-color:#7481ff;
+      }
+
+      .socialLink.purpleBg:hover{
+        background-color:#6270FF;
+      }
+
+      .socialLink.white{
+        color:#7481ff;
+      }
+
+      .socialLink.white:hover{
+        color:#6270FF;
+      }
+}
+
+.icon-arrowTop:before {
+  content: "\e905";
+}
+.icon-arrowBott:before {
+  content: "\e90e";
+}
+.icon-close:before {
+  content: "\e90f";
+}
+.icon-car:before {
+  content: "\e910";
+}
+.icon-financing:before {
+  content: "\e911";
+}
+.icon-map:before {
+  content: "\e912";
+}
+.icon-time:before {
+  content: "\e913";
+}
+.icon-proc:before {
+  content: "\e914";
+}
+.icon-success:before {
+  content: "\e90d";
+}
+.icon-search:before {
+  content: "\e90c";
+}
+.icon-zoomMinus:before {
+  content: "\e90a";
+}
+.icon-zoomPlus:before {
+  content: "\e90b";
+}
+.icon-share:before {
+  content: "\e909";
+}
+.icon-phone:before {
+  content: "\e908";
+}
+.icon-name:before {
+  content: "\e907";
+}
+.icon-mail:before {
+  content: "\e906";
+}
+.instagram:before {
+  content: "\e902";
+}
+.facebook:before {
+  content: "\e903";
+}
+.youtube:before {
+  content: "\e904";
+}

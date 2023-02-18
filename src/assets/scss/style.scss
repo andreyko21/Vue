@@ -1,0 +1,21 @@
+@import "fonts";
+@import "components";
+
+body {
+  background: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.main {
+  min-height: calc(100vh - 143px - 81px);
+  @media (max-width: $deskToTablet) {
+    min-height: calc(100vh - 200px - 81px);
+  }
+  @media (max-width: $tableToMobile) {
+    min-height: calc(100vh - 234px - 81px);
+  }
+  @media (max-width: 426px) {
+    min-height: calc(100vh - 197px - 81px);
+  }
+}
+
